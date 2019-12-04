@@ -172,7 +172,7 @@ public class AppBusqueda extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
          int dato = Integer.parseInt(txtDato.getText());
        int[] vector = ConvertirVectores.AVectorEntero(txtVector.getText());
-       int indice = Interpolacion.Busqueda(vector, dato);
+       int indice = Interpolacion.BusquedaInterpolacion(vector, dato);
        lblResultado.setText(Integer.toString(indice));
     }//GEN-LAST:event_jButton1ActionPerformed
 
